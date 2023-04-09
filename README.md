@@ -48,7 +48,7 @@ Mata Kuliah : Pemrograman Web 2
 
 5. Ketika kita lihat, bahwa data yang sudah di input tadi akan masuk ke dalam database phpmyadmin
 
-![5](https://user-images.githubusercontent.com/119909214/230784835-1f0e7810-65d7-4c11-8a11-a0234d9fc6ac.png)
+![5](https://user-images.githubusercontent.com/119909214/230797658-b3587f04-0a16-4c32-a7e9-4ee7c76bf045.png)
 
 6. Masuk ke menu "contact" sama seperti praktikum sebelumnya dan dibagian isi sudah saya jelaskan
 
