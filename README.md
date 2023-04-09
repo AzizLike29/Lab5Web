@@ -28,7 +28,7 @@ Mata Kuliah : Pemrograman Web 2
 
 ![5](https://user-images.githubusercontent.com/119909214/230784769-fef94638-74e9-4fd7-93af-835297a0610d.png)
 
-<h1> Implementasi praktikum 5 dengan praktikum 4 sebelumnya <h1>
+<h1> Implementasi praktikum 5 dengan praktikum 4 sebelumnya </h1>
 
 1. Masuk ke menu "home" header dan footer merupakan impelementasi praktikum sebelumnya, dan dibagian content merupakan OOP motor yang menambahkan beberapa objek yang lainnya
 
