@@ -1,0 +1,171 @@
+/* desain styling secara keseluruhan */
+header {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  background: -webkit-linear-gradient(right, yellow, red);
+  width: 45%;
+  text-align: center;
+  background-position: center;
+  border-radius: 10px;
+  box-shadow: 0px 1px 8px black;
+}
+
+h2 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  background: -webkit-linear-gradient(right, yellow, red);
+  width: 350px;
+  text-align: center;
+  background-position: center;
+  border-radius: 10px;
+  box-shadow: 0px 1px 8px black;
+}
+
+.form-container {
+  margin: 0 auto;
+  max-width: 500px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  background: -webkit-linear-gradient(top, red, yellow);
+}
+
+.form-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+}
+
+td {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  text-align: left;
+}
+
+.my-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.my-table th,
+.my-table td {
+  padding: 8px;
+  text-align: left;
+}
+
+.my-table th {
+  background-color: coral;
+}
+
+.my-table tr:nth-child(even) {
+  background-color: burlywood;
+}
+
+.my-table tr:hover {
+  background-color: #ebebeb;
+}
+
+input[type="text"] {
+  max-width: 100%;
+  background-color: blanchedalmond;
+  border: none;
+  font-family: "Raleway SemiBold", sans-serif;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 16px;
+  margin: 10px;
+}
+
+form table input[type="submit"] {
+  display: block;
+  background-color: blanchedalmond;
+  font-family: Raleway SemiBold, sans-serif;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+form table input[type="submit"]:hover {
+  background-color: #ef7215 !important;
+  transition: 0.5s all !important;
+  cursor: pointer;
+}
+
+nav {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 50px;
+  display: block;
+  border-radius: 5px;
+  border-top: 5px solid burlywood;
+  border-bottom: 5px solid burlywood;
+  border-right: 5px solid burlywood;
+  border-left: 5px solid burlywood;
+  background: -webkit-linear-gradient(right, red, yellow);
+}
+
+nav a {
+  padding: 15px 30px;
+  display: inline-block;
+  color: firebrick;
+  font-size: 14px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a.active,
+nav a:hover {
+  background-color: coral;
+}
+
+.content {
+  background-color: darksalmon;
+  padding: 50px 20px;
+  margin-bottom: 20px;
+}
+
+.content h1 {
+  margin-bottom: 20px;
+  font-size: 35px;
+}
+
+.content p {
+  margin-bottom: 20px;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.btn-delete {
+  border: 1px solid #db5d59;
+  background: #db5d59 url("img/hapus.png") no-repeat 5px 4px;
+  height: 22px;
+  padding-left: 15px;
+  padding-top: 5px;
+}
+
+.btn-update {
+  border: 1px solid #00b3a8;
+  background: #00b3a8 url("img/update.png") no-repeat 5px 4px;
+  height: 22px;
+  padding-left: 15px;
+  padding-top: 5px;
+}
+
+footer {
+  margin-top: 50px;
+  clear: both;
+  text-align: center;
+  background: -webkit-linear-gradient(right, red, yellow);
+  padding: 20px;
+  color: beige;
+  border-radius: 5px;
+  font-family: "Raleway SemiBold", sans-serif;
+  border-top: 5px solid burlywood;
+  border-bottom: 5px solid burlywood;
+  border-right: 5px solid burlywood;
+  border-left: 5px solid burlywood;
+}
