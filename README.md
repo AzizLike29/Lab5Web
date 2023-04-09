@@ -6,7 +6,7 @@ Nim : 312110262
 
 Mata Kuliah : Pemrograman Web 2
 
-<h1> Praktikum 5 OOP PHP <h1>
+<h1> Praktikum 5 OOP PHP </h1>
 
 1. Menampilkan pesan koneksi berhasil terhubung ke database
 
