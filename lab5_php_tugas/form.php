@@ -28,7 +28,7 @@ class Form
     echo "</table>";
   }
 
-  public function addField($name, $label, $value = "",)
+  public function addField($name, $label, $value = "")
   {
     $this->fields[$this->jumField]['name'] = $name;
     $this->fields[$this->jumField]['label'] = $label;
