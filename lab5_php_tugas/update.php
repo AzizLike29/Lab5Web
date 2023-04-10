@@ -1,6 +1,8 @@
 <?php
+include "database.php";
 $database = new database();
 $Nim = $_GET["Nim"];
+echo $Nim;
 
 if (isset($_POST['submit'])) {
     $data = [
@@ -29,13 +31,13 @@ $data = $database->get("tb_latihan", "where Nim=" . $Nim);
         <h2 style="margin-left: 80px;">Silahkan isi form berikut ini</h2>
         <?php
         include "form.php";
-        $form = new Form("update.php", "submit");
-        $form->addField("txtNim", "Nim", $data["Nim"], "form-input");
-        $form->addField("txtNama", "Nama", $data["Nama"], "form-input");
-        $form->addField("txtKelas", "Kelas", $data["Kelas"], "form-input");
-        $form->addField("txtStatus", "Status", $data["Status"], "form-input");
-        $form->addField("txtAlamat", "Alamat", $data["Alamat"], "form-input");
-        $form->addField("txtNomer", "Nomer", $data["Nomer"], "form-input");
+        $form = new Form("", "submit");
+        $form->addField("txtNim", "Nim", $data["Nim"]);
+        $form->addField("txtNama", "Nama", $data["Nama"]);
+        $form->addField("txtKelas", "Kelas", $data["Kelas"]);
+        $form->addField("txtStatus", "Status", $data["Status"]);
+        $form->addField("txtAlamat", "Alamat", $data["Alamat"]);
+        $form->addField("txtNomer", "Nomer", $data["Nomer"]);
         $form->displayForm();
         ?>
     </div>

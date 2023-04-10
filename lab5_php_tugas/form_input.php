@@ -31,12 +31,12 @@ if (isset($_POST['submit'])) {
     <?php
     include "form.php";
     $form = new Form("form_input.php", "submit");
-    $form->addField("txtNim", "Nim", "form-input");
-    $form->addField("txtNama", "Nama", "form-input");
-    $form->addField("txtKelas", "Kelas", "form-input");
-    $form->addField("txtStatus", "Status", "form-input");
-    $form->addField("txtAlamat", "Alamat", "form-input");
-    $form->addField("txtNomer", "Nomer", "form-input");
+    $form->addField("txtNim", "Nim");
+    $form->addField("txtNama", "Nama");
+    $form->addField("txtKelas", "Kelas");
+    $form->addField("txtStatus", "Status");
+    $form->addField("txtAlamat", "Alamat");
+    $form->addField("txtNomer", "Nomer");
     $form->displayForm();
     ?>
   </div>
